@@ -8,7 +8,7 @@ public class FPSLimiter : Singleton<FPSLimiter>
 
     private void Awake()
     {
-        Time.captureFramerate = 30;
+        Time.captureFramerate = 60;
         //StartCoroutine(ShowFPS());
     }
 
